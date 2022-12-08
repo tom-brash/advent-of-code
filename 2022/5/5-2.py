@@ -28,8 +28,5 @@ def move(a, b, c, stacks):
     stacks[b] = stacks[b][:-a]
     return stacks
  
-def to_queue(s):
-    return [c for c in s]
-
 if __name__ == "__main__":
     main()
