@@ -1,5 +1,6 @@
 import re
 from collections import deque, defaultdict
+import ast
 
 def main():
     with open('input', 'r') as open_file:
@@ -8,23 +9,18 @@ def main():
     total = 0
 
     for i, pair in enumerate(input):
-        packets = [eval(p) for p in pair.split('\n')]
+        packets = [ast.literal_eval(p) for p in pair.split('\n')]
         left = packets[0]
         right = packets[1]
-        print(f'\nComparing pair {i+1}\n')
         outcome = compare_packets(left, right)
-        if outcome == None:
-            print('wtf')
         if outcome:
-            print(f'Found! Pair {i + 1}')
             total += (i + 1)
 
-    print(total)
+    print(f'Final answer: {total}')
 
 def compare_packets(left, right):
     
     if isinstance(left, int) and isinstance(right, int):
-        print(f'compare {left} and {right}')
         if left < right:
             return True
         elif left > right:
@@ -45,7 +41,6 @@ def compare_packets(left, right):
         tiebreak = None
 
     for i in range(min(len(left), len(right))):
-        print(f'compare {left[i]} and {right[i]}')
         comp_val = compare_packets(left[i], right[i])
         if comp_val == True:
             return True

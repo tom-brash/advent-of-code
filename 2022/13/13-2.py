@@ -1,4 +1,5 @@
 import re
+import ast
 from collections import deque, defaultdict
 from functools import cmp_to_key
 
@@ -9,7 +10,7 @@ def main():
     packets = []
 
     for i, pair in enumerate(input):
-        packets.extend([eval(x) for x in pair.split('\n')])
+        packets.extend([ast.literal_eval(x) for x in pair.split('\n')])
 
     packets.extend([[[2]], [[6]]])
     packets = sorted(packets, key = cmp_to_key(compare_packets))
