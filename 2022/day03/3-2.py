@@ -11,13 +11,12 @@ def main():
             elves.append(set([convert(ord(y)) for y in input[i * 3 + j]]))
 
         total += sum(set.intersection(*elves))
-    print(total)
+    print(f'\n(3-2) The sum of the priorities of the redundant items between three elf groups is: {total}')
 
 def convert(i):
-    # if i >= 97:
-        # return i - 96
-    # else: return i - 38
-    return string.ascii_letters[i]
+    if i >= 97:
+        return i - 96
+    else: return i - 38
 
 
 if __name__ == "__main__":

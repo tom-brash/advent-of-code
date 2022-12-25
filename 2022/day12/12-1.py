@@ -2,6 +2,10 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 12====')
+    print('Attempting contact with elves....')
+    print('No signal')
+    print('Plotting path up nearby mountain to get signal...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -27,14 +31,13 @@ def main():
     while sq:
         x, y, d = sq.popleft()
         if (x, y) == target:
-            print(f'Finished! Took {d} moves')
+            print(f'\n(12-1) Best route found up the mountain in {d} moves')
 
         previous_best = best_states.get((x, y), 1000000000)
         if d >= previous_best:
             continue
         best_states[(x, y)] = d
         sq.extend(get_valid_moves(x, y, d, grid))
-    print('done')
 
 
 def get_valid_moves(x, y, d, grid):

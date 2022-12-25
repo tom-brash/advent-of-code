@@ -13,7 +13,7 @@ def main():
         a, b = x.split(" ")
         total += points[b]
         total += raw_scores[outcomes[a][b]]
-    print("Final total:", total)
+    print(f"\n(2-2) Following the amended strategy would yield: {total} points")
 
 if __name__ == "__main__":
     main()

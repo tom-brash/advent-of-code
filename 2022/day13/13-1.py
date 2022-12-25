@@ -3,6 +3,9 @@ from collections import deque, defaultdict
 import ast
 
 def main():
+    print('====Day 13====')
+    print('Picked up distress signal!')
+    print('Reordering packets in distress signal...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n\n')
 
@@ -16,7 +19,7 @@ def main():
         if outcome:
             total += (i + 1)
 
-    print(f'Final answer: {total}')
+    print(f'\n(13-1) Packets already in the correct order: {total}')
 
 def compare_packets(left, right):
     

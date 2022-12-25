@@ -45,10 +45,10 @@ def main():
             best_dir = d
             best_size = s
 
-    print(f'Total file space on drive: {drive_size} elf_bytes')
+    print(f'\nTotal file space on drive: {drive_size} elf_bytes')
     print(f'Used space on drive: {total_size}')
     print(f'Requred additional space to download update: {req_space}')
-    print(f'Recommended for deletion: {best_dir} of size {best_size}')
+    print(f'\n(7-2) Recommended for deletion: {best_dir} of size {best_size}')
 
 def get_size(d, data, known_sizes):
     size = 0

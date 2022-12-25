@@ -20,7 +20,8 @@ def main():
                 best = vis
 
     
-    print(best)
+    print(f'\nIdentifing the best treehouse location...')
+    print(f'\n(8-2) Best treehouse has a scenic score of {best}')
 
 def check_vis(r, c, trees):
     t_height = trees[r][c]
@@ -53,7 +54,7 @@ def check_vis(r, c, trees):
             vl += 1
             break
 
-    for co in range(c + 1, grid_max_col + 1):
+    for co in range(c + 1, grid_max_column + 1):
         if trees[r][co] < t_height:
             vr += 1 
         else:

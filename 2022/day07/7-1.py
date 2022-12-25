@@ -1,8 +1,9 @@
-
 import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 7====')
+    print('Making space on the *device* to install a system update...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -38,7 +39,7 @@ def main():
         if size <= 100000:
             total += size
 
-    print("Total size of files < 100000 elf_bytes: ", total)
+    print("\n(7-1) Total size of files < 100000 elf_bytes: ", total)
 
 def get_size(d, data, known_sizes):
     size = 0

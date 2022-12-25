@@ -2,6 +2,8 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 11====')
+    print('Attacked by monkeys! Things are being thrown around in the air...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n\n')
 
@@ -17,14 +19,13 @@ def main():
         true_target = int(re.findall(r'\d+', m_details[4])[0])
         false_target = int(re.findall(r'\d+', m_details[5])[0])
         monkey = Monkey(operation, op_val, test_val, true_target, false_target, starting_items)
-        print(operation, op_val, test_val, true_target, false_target, starting_items)
+        # print(operation, op_val, test_val, true_target, false_target, starting_items)
         monkey_group.add_monkey(i, monkey)
 
     for i in range(20):
         monkey_group.run_round()
-
+    
     monkey_group.get_monkey_business()
-
     
 
 class Monkey:
@@ -72,7 +73,7 @@ class MonkeyGroup:
         self.monkeys[i] = m
 
     def run_round(self):
-        print(self.monkeys)
+        # print(self.monkeys)
         for i in range(len(self.monkeys)):
             self.take_turn(i) 
 
@@ -80,14 +81,14 @@ class MonkeyGroup:
         monkey = self.monkeys[i]
         while len(monkey.items) > 0:
             item, n = monkey.eval_item()
-            print(f'Moving item {item} to monkey {n}')
+            # print(f'Moving item {item} to monkey {n}')
             self.monkeys[n].append_item(item) 
         self.monkeys[i] = monkey
 
 
     def get_monkey_business(self):
         eval_item_list = sorted([m.items_evaluated for m in self.monkeys.values()])
-        print(f'Monkey business: {eval_item_list[-1] * eval_item_list[-2]}')
+        print(f'\n(11-1) Level of monkey business after 20 rounds: {eval_item_list[-1] * eval_item_list[-2]}')
 
 
 if __name__ == "__main__":

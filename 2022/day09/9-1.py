@@ -2,9 +2,11 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 9====')
+    print('Encountered a rope bridge!')
+    print('Modelling rope physics to distract from potential doom...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
-
     
     h = (0, 0)
     t = (0, 0)
@@ -12,15 +14,13 @@ def main():
 
     for x in input:
         d, n = x.split(' ')
-        print('\n==', d, n, '==\n')
         n = int(n)
         for i in range(n):
             h = move_head(h, d)
             t = move_tail(t, h)
             visited.add(t)
-            print("H: ", h, "    T: ", t)
 
-    print("Visited: ", len(visited))
+    print("\n(9-1) Hypothetical number of spots visited by the rope 'tail': ", len(visited))
 
 def move_head(h, d):
     x, y = h

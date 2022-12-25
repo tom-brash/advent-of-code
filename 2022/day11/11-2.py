@@ -2,6 +2,7 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('\nWorry levels increasing...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n\n')
 
@@ -25,8 +26,6 @@ def main():
     monkey_group.fix_items(divis_checks)
 
     for i in range(10000):
-        if i % 100 == 0:
-            print(i)
         monkey_group.run_round()
 
     monkey_group.get_monkey_business()
@@ -109,7 +108,7 @@ class MonkeyGroup:
 
     def get_monkey_business(self):
         eval_item_list = sorted([m.items_evaluated for m in self.monkeys.values()])
-        print(f'Monkey business: {eval_item_list[-1] * eval_item_list[-2]}')
+        print(f'\n(11-2) Monkey business after 10,000 rounds: {eval_item_list[-1] * eval_item_list[-2]}')
 
 if __name__ == "__main__":
     main()

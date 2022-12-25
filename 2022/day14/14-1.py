@@ -2,6 +2,10 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 14====')
+    print('Tracked distress signal to cave behind the waterfall...')
+    print('Sand falling from the ceiling!')
+    print('Analyzing sand patterns...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
     
@@ -25,7 +29,7 @@ def main():
         else:
             break
 
-    print(total)
+    print(f'\n(14-1) Sand grains expected to fall before equilibrium reached: {total}')
 
 
 def drop_sand(grid, lowest_point):

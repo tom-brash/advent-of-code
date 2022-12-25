@@ -1,3 +1,5 @@
+article \*[title]{border-bottom:1px dotted #ffff66;}
+
 \--- Day 1: Calorie Counting ---
 ----------
 
@@ -43,8 +45,25 @@ In case the Elves get hungry and need extra snacks, they need to know which Elf 
 
 Find the Elf carrying the most Calories. *How many total Calories is that Elf carrying?*
 
-To begin, [get your puzzle input](1/input).
+Your puzzle answer was `69501`.
 
-Answer:
+\--- Part Two ---
+----------
 
-You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=%22Calorie+Counting%22+%2D+Day+1+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F1&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
+By the time you calculate the answer to the Elves' question, they've already realized that the Elf carrying the most Calories of food might eventually *run out of snacks*.
+
+To avoid this unacceptable situation, the Elves would instead like to know the total Calories carried by the *top three* Elves carrying the most Calories. That way, even if one of those Elves runs out of snacks, they still have two backups.
+
+In the example above, the top three Elves are the fourth Elf (with `24000` Calories), then the third Elf (with `11000` Calories), then the fifth Elf (with `10000` Calories). The sum of the Calories carried by these three elves is `*45000*`.
+
+Find the top three Elves carrying the most Calories. *How many Calories are those Elves carrying in total?*
+
+Your puzzle answer was `202346`.
+
+Both parts of this puzzle are complete! They provide two gold stars: \*\*
+
+At this point, all that is left is for you to [admire your Advent calendar](/2022).
+
+If you still want to see it, you can [get your puzzle input](1/input).
+
+You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Calorie+Counting%22+%2D+Day+1+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F1&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.

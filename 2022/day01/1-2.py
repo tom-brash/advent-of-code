@@ -9,7 +9,7 @@ def main():
         total = sum([int(x) for x in stuff])
         weights.append(total)
 
-    print(sum(sorted(weights)[-3:]))
+    print(f'\n(1-2) The top *three* elves are carrying: {sum(sorted(weights)[-3:])} calories')
 
 if __name__ == "__main__":
 	main()

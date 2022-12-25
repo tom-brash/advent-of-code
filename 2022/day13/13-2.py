@@ -4,6 +4,7 @@ from collections import deque, defaultdict
 from functools import cmp_to_key
 
 def main():
+    print('\nPutting all the packets in the right order...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n\n')
 
@@ -15,7 +16,7 @@ def main():
     packets.extend([[[2]], [[6]]])
     packets = sorted(packets, key = cmp_to_key(compare_packets))
     
-    print(f'Final answer: {(packets.index([[2]]) + 1) * (packets.index([[6]]) + 1)}')
+    print(f'\n(13-2) Decoder key for the distress signal: {(packets.index([[2]]) + 1) * (packets.index([[6]]) + 1)}')
 
 def compare_packets(left, right):
     

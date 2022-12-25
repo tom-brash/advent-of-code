@@ -2,6 +2,7 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('\nAttempting *all* options in case there is a more scenic route...\n')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -36,7 +37,7 @@ def main():
     print(f'{len(possible_starts)} different routes attempted')
     print(f'{impossible_locations} of those starts were deemed impossible')
     print(f'Longest viable route was {worst_found} steps')
-    print(f'\nBest possible route was {best_found} steps')
+    print(f'\n(12-2) Best possible route was {best_found} steps')
 
 def map_path(start, target, grid):
     sq = deque()

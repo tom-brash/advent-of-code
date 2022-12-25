@@ -2,12 +2,16 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 10====')
+    print('Lost contact with the elves after the rope bridge snapped!')
+    print('Using *device* to connect up with the elves')
+    print('*Device* broken... Designing a replacement for the video screen...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
     cpu = aoc_cpu(input)
     cpu.run()
-    print(cpu.total_signal_strength)
+    print(f'\n(10-1) Deciphered signal sent by the CPU: {cpu.total_signal_strength}')
 
 class aoc_cpu:
     def __init__(self, instructions):
@@ -20,17 +24,16 @@ class aoc_cpu:
         self.future_state = {'x': 1}
         self.total_signal_strength = 0
         self.process_instruction()
-        print('hi')
 
     def run(self):
-        while self.cycle < 240:
+        while self.cycle < 230:
             self.progress_cycle()
     
     def progress_cycle(self):
-        print('starting cycle...', self.cycle)
+        # print('starting cycle...', self.cycle)
         self.cycle += 1
         if self.cycle in self.interesting_cycles:
-            print(f'Signal strength at cycle {self.cycle}: {self.cycle * self.registers["x"]}')
+            # print(f'Signal strength at cycle {self.cycle}: {self.cycle * self.registers["x"]}')
             self.total_signal_strength += self.cycle * self.registers['x']
         if self.execution_wait > 0:
             self.execution_wait -=1

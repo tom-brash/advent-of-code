@@ -2,6 +2,7 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('\nCorrecting assumptions about existence of cave floor...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
     
@@ -28,7 +29,7 @@ def main():
         if grid[(500, 0)] == '.':
             break
 
-    print(total)
+    print(f'\n(14-2) Sand grains expected to fall before equilibrium reached: {total}')
 
 
 def drop_sand(grid, lowest_point):

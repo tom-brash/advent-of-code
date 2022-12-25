@@ -2,6 +2,9 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 8====')
+    print('Encountered a patch of tall trees!')
+    print('Determining suitability for a treehouse...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
     trees = {}
@@ -13,13 +16,12 @@ def main():
         trees[r] = row_dict
 
     total = 0
-    print(trees)
     for r in range(len(input)):
         for c in range(len(input[0])):
             total += check_vis(r, c, trees)
 
     
-    print(total)
+    print(f'\n(8-1) Number of trees visible from outside the grid: {total}')
 
 def check_vis(r, c, trees):
     t_height = trees[r][c]

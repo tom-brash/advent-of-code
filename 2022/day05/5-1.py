@@ -2,6 +2,8 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 5====')
+    print('Unloading supplies from the ships...')
     with open('input', 'r') as open_file:
         input = open_file.read().rstrip().split('\n')
     stacks = defaultdict(list)
@@ -19,7 +21,7 @@ def main():
     output = ''
     for i in range(1, 10):
         output += stacks[i][-1]
-    print(output)
+    print(f'\n(5-1) After rearranging all the crates, the stack shows the message: {output}')
 
 
 def move(a, b, c, stacks):

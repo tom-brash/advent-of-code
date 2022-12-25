@@ -2,11 +2,14 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('\nCreated a replacement CRT screen!')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
     cpu = aoc_cpu(input)
     cpu.run()
+
+    print('\n(10-2) Output of CRT screen:\n')
     cpu.print_grid()
 
 class aoc_cpu:

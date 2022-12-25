@@ -2,6 +2,7 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('\nThe rope snapped! Quickly simulating rope end locations to avoid!')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -21,7 +22,7 @@ def main():
                 knots[k] = move_tail(knots[k], knots[k-1])
                 tracking[k].add(knots[k])
 
-    print("Final tail knot visited: ", len(tracking[num_knots - 1]))
+    print("\n(9-2) Spots visited by the final tail knot: ", len(tracking[num_knots - 1]))
 
 def move_head(h, d):
     x, y = h
