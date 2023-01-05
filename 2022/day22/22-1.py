@@ -2,10 +2,13 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 22====')
+    print('Walking through the grove...')
+    print('Forcefield encountered! Searching for password on maze input grid...')
     with open('input', 'r') as open_file:
         input = open_file.read()
 
-    print(input)
+    # print(input)
     grid = {}
     grid_moves = defaultdict(dict)
 
@@ -28,9 +31,9 @@ def main():
         else:
             pos, grid_movees = move(grid, grid_moves, pos, x)
 
-    print('final_pos')
-    print(pos)
-    print((pos[0]+1) * 1000 + (pos[1]+1) * 4 + pos[2])
+    # print('final_pos')
+    # print(pos)
+    print(f'\n(22-1) Final password: {(pos[0]+1) * 1000 + (pos[1]+1) * 4 + pos[2]}')
 
 def turn(pos, x):
     row, col, d = pos

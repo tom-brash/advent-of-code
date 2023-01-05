@@ -2,6 +2,8 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 20====')
+    print('Attempting to decrypt grove coordinate file...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -10,7 +12,7 @@ def main():
     total_nums = len(input)
 
     for i, x in enumerate(input):
-        print(i, x)
+        # print(i, x)
         n = int(x) + i / 11000
         file.append(n)
         order.append(n)
@@ -32,7 +34,8 @@ def main():
     
     total = sum([file_l[(zix + n) % total_nums] for n in [1000, 2000, 3000]])
         
-    print(total)
+    print(f'\nCoordinates of location: {[file_l[(zix + n) % total_nums] for n in [1000, 2000, 3000]]}')
+    print(f'\n(20-1) Total of coordinates {total}')
 
 
 if __name__ == "__main__":

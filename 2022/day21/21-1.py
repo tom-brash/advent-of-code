@@ -2,6 +2,9 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 21====')
+    print('Monkeys spotted again!')
+    print('Attempting to solve monkey riddle: what will "root" monkey shout?')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -34,7 +37,7 @@ def main():
             if n == "root":
                 answer = m.result
 
-    print(answer)
+    print(f'\n(21-1) "root" monkey predicted to shout: {answer}')
 
 
 class Monkey:

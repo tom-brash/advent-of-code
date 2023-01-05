@@ -17,7 +17,7 @@ def main():
         i += 1
         moved = es.run_round()
 
-    print(f'Round in which all elves have found their place: {i}')
+    print(f'\n(23-2) Round in which all elves have found their place: {i}')
 
 class Elves:
     def __init__(self):

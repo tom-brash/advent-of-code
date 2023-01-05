@@ -2,6 +2,7 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('\nInsufficient geodes produced... extending time limit to 32 minutes\n')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -13,12 +14,13 @@ def main():
     total = 1
     
     for i, b in enumerate(blueprints):
-        print()
-        print(f"Trying blueprint {i}")
+        # print()
+        # print(f"Trying blueprint {i}")
         n = find_max_geodes(b)
+        print(f'Maximum geodes for blueprint {i + 1}: {n}')
         total *= n
         
-    print(f'Final answer: {total}')
+    print(f'\n(19-2) Multiplying best results together: {total}')
 
 def find_max_geodes(blueprint):
     start = (1, 0, 0, 0, 1, 0, 0, 0, 1)
@@ -30,7 +32,7 @@ def find_max_geodes(blueprint):
         a, b, c, d, ar, br, cr, dr, t = sq.popleft()
         if d > best_found:
             best_found = d
-            print(f'A solution found: {d}')
+            # print(f'A solution found: {d}')
         current_state = (a, b, c, d, ar, br, cr, dr)
         best_previous = best_states.get(current_state, 35)
         

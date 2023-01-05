@@ -2,6 +2,7 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('\nZeroing in on the beacon...\n')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -36,8 +37,8 @@ def main():
         if len(cr) <= 1:
             continue
         else:
-            print(f'Beacon location identified! Beacon is at {cr[0][1] + 1}, {i}')
-            print(f'Tuning frequency: {i + (cr[0][1] + 1) * 4000000}')
+            print(f'\nBeacon location identified! Beacon is at {cr[0][1] + 1}, {i}')
+            print(f'\n(15-2) Tuning frequency: {i + (cr[0][1] + 1) * 4000000}')
             break
 
 class Sensor:

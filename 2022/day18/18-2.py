@@ -33,7 +33,7 @@ def main():
             else:
                 internal = internal.union(visited)
 
-    print(f"Internal surface area: {surface_area}")
+    print(f"\n(18-2) External surface area of droplet: {surface_area}")
 
 def get_neighbors(d):
     x, y, z = d

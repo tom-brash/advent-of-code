@@ -2,6 +2,7 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('\nInput grid determined to be input cube! Recalibrating password...')
     with open('input', 'r') as open_file:
         input = open_file.read()
 
@@ -27,8 +28,8 @@ def main():
         else:
             pos, grid_movees = move(grid, grid_moves, pos, x)
 
-    print(pos)
-    print(f'Final answer: {(pos[0]+1) * 1000 + (pos[1]+1) * 4 + pos[2]}')
+    # print(pos)
+    print(f'\n(22-2) Final password: {(pos[0]+1) * 1000 + (pos[1]+1) * 4 + pos[2]}')
 
 def turn(pos, x):
     row, col, d = pos

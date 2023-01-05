@@ -2,6 +2,9 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 25====')
+    print('Extraction point reached!')
+    print('Heating fuel for use in hot air balloons. Assessing total fuel to be used...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -10,7 +13,10 @@ def main():
     for x in input:
         total += from_snafu(x)
 
-    print(f'Required code in SNAFU: {to_snafu(total)}')
+    print(f'\n(25-1) Required fuel number in SNAFU: {to_snafu(total)}')
+    print('\nMade it to the North Pole via hot air balloon!')
+    print('\nAll 50 required star fruits found!')
+    print('\nChristmas is saved again!')
 
 def from_snafu(x):
     translate = {'2': 2, '1': 1, '0': 0, '-': -1, '=': -2}

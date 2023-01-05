@@ -2,6 +2,8 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 23====')
+    print('Grove found! Ash to grow fruit incoming... helping to get elves to planting positions...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -75,7 +77,7 @@ class Elves:
         min_r, max_r, min_c, max_c = self.get_boundaries()
         width = (max_c - min_c) + 1
         height = (max_r - min_r) + 1
-        print(f'Free spaces after 10 movement cycles: {width * height  - len(self.current_positions)}')
+        print(f'\n(23-1) Free spaces after 10 movement cycles: {width * height  - len(self.current_positions)}')
 
     def get_boundaries(self):
         self.get_positions()

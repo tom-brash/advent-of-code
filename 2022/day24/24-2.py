@@ -3,14 +3,14 @@ from collections import deque, defaultdict
 import heapq
 
 def main():
+    print('\nElves forgot their snacks in the grove..........')
+    print('Plotting most efficient route back...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
     valley = Valley(input)
     start = valley.start
     target = valley.target
-
-    print('Attempting to find our way...')
 
     possible_states = defaultdict(set)
     possible_states[0].add(start)
@@ -29,12 +29,14 @@ def main():
         t += 1
         possible_states[t] = next_positions
         if targets[targets_hit] in next_positions:
-            print(f'Found a target! Switching target...')
+            # print(f'Found a target! Switching target...')
             possible_states[t] = set()
             possible_states[t].add(targets[targets_hit])
-            print(possible_states[t])
+            # print(possible_states[t])
             targets_hit += 1
-            print(t)
+            # print(t)
+    
+    print(f'\n(24-2) Minimum steps to get out, backtrack for snacks, and get out again: {t}')
 
 class Valley:
     def __init__(self, input):
@@ -54,15 +56,12 @@ class Valley:
         self.move_dicts = {'>': (0, 1), '<': (0, -1), '^': (-1, 0), 'v': (1, 0)}
         self.start = (-1, 0)
         self.target = (self.height, self.width - 1)
-        print('Performing vertical movement')
         for i in range(self.height):
             self.v_blizzards = self.update_blizzards(self.v_blizzards, i)
 
-        print('Performing horizontal movement')
         for i in range(self.width):
             self.h_blizzards = self.update_blizzards(self.h_blizzards, i)
 
-        print('Finding clear space...')
         for i in range(1, self.height * self.width):
             self.update_clear_space(i)
 

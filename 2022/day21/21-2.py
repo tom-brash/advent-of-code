@@ -4,6 +4,7 @@ from sympy import solve, parse_expr, Symbol
 from collections import deque, defaultdict
 
 def main():
+    print('\nhumn identified as the user... searching for correct value...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -39,11 +40,11 @@ def main():
 
     eq_string = f'{monkeys[f1].result} - {monkeys[f2].result}'
     x = Symbol('x')
-    print(f'Simplified to the following equation...')
+    print(f'\nSimplified to the following equation...')
     print(eq_string)
     print('\nSolving equation...')
 
-    print(f'Final answer: {solve(parse_expr(eq_string))[0]}')
+    print(f'\n(21-2) Final answer to monkey riddle: {solve(parse_expr(eq_string))[0]}')
 
 class Monkey:
     def __init__(self, num, m1, m2, op):

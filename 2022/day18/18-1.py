@@ -2,6 +2,9 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day18====')
+    print('Emerged into fresh air!')
+    print('Lava falling nearby. Examining droplet...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -20,7 +23,7 @@ def main():
             if n in drops:
                 collisions += 1
 
-    print(f'Surface area: {n_drops * 6 - collisions}')
+    print(f'\n(18-1) Surface area of droplet: {n_drops * 6 - collisions}')
 
 def get_neighbors(d):
     x, y, z = d

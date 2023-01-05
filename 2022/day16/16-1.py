@@ -3,6 +3,10 @@ import heapq
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 16====')
+    print('Found the distress signal surrounded by elephants!')
+    print('Volcano at risk of imminent eruption!')
+    print('Pressure valves found. Assessing best way to release volcano pressure...')
     with open('test', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -42,10 +46,8 @@ def main():
     best_found = 0
     best_time_state = defaultdict(int)  # to allow for heuristic search
 
-    print('Starting search for optimal routes...')
     if heuristic_boundary > 0:
-        print('WARNING: Using heuristic search: not guaranteed to find true optimal value')
-        print()
+        print('\nWARNING: Using heuristic search: not guaranteed to find true optimal value')
 
     iter = 0 
     while sq:
@@ -64,7 +66,7 @@ def main():
         if t == max_time:
             if drained > best_found:
                 best_found = drained
-                print(f'Best option found so far: {drained}')
+                # print(f'Best option found so far: {drained}')
 
         # check if current state has been reached faster
         current_state = (loc, drained, opened)
@@ -85,7 +87,7 @@ def main():
                 for move in new_moves:
                     heapq.heappush(sq, move)
 
-    print(f"Final answer: {best_found}")
+    print(f"\n(16-1) Best possible route can release pressure of: {best_found}")
 
 def bfs(start, target, v_exits):
     sq = deque([(start, 0)])

@@ -2,6 +2,9 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 15====')
+    print('Traced the distress beacon to subterranean tunnels!')
+    print('Deploying sensor beacons to find distress beacon...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -20,7 +23,7 @@ def main():
     for s in sensors:
         hr = s.md - abs(s.y - t_row)
         if hr >= 0:
-            print(f'Sensor as {s.pos} and md {s.md} has range {(s.x - hr), (s.x + hr)}')
+            # print(f'Sensor as {s.pos} and md {s.md} has range {(s.x - hr), (s.x + hr)}')
             impossible_ranges.append((s.x -hr, s.x + hr))
 
     cr = []
@@ -29,8 +32,8 @@ def main():
             cr[-1][1] = max(cr[-1][1], e)
         else:
             cr.append([b, e])
-    print(impossible_ranges)
-    print(cr)
+    # print(impossible_ranges)
+    # print(cr)
 
     total = 0 
     actual_beacons = 0
@@ -42,7 +45,7 @@ def main():
                 actual_beacons += 1
         total += (r[1] - r[0]) + 1
 
-    print(f'Final answer: {total-actual_beacons}')
+    print(f'\n(15-1) In row 2,000,000, number of spots that cannot contain the beacon: {total-actual_beacons}')
 
 class Sensor:
     def __init__(self, c):

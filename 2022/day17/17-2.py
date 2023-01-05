@@ -2,6 +2,8 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('\nElephants not yet satisfied')
+    print('Dropping 1,000,000,000,000 rocks to prove safety to elephants...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip()
 
@@ -17,7 +19,7 @@ def main():
     cycle_size = None
     i = 0
 
-    print(f'Searching for a cycle...')
+    print(f'\nSearching for a cycle to reduce workload...')
 
     while counter < 30 and i < 90000000:
         c_set[(tetris.i % 5, tetris.wind_index)] = (tetris.i, tetris.height)
@@ -41,13 +43,13 @@ def main():
     num_cycles = (target_iterations - cycle_start) // cycle_length
     remaining = (target_iterations - cycle_start) % cycle_length
 
-    print(f"Target iteration count contains {num_cycles} complete cycles. Simulating remaining tower...\n")
+    print(f"Target iteration count contains {num_cycles} complete cycles. Simulating remaining tower...")
 
     tetris = Tetris(directions)
     for _ in range(cycle_start + remaining):
         tetris.drop_shape()
 
-    print(f"Final answer: {tetris.height + num_cycles * cycle_size}") 
+    print(f"\n(17-2) Height of the resulant rock tower: {tetris.height + num_cycles * cycle_size}") 
 
 
 class Shape:

@@ -2,6 +2,9 @@ import re
 from collections import deque, defaultdict
 
 def main():
+    print('====Day 17====')
+    print('Alternative exit located!')
+    print('Simulating dropping 1,000 rocks to prove safety to elephants...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip()
 
@@ -11,7 +14,7 @@ def main():
     for _ in range(2022):
         tetris.drop_shape()
         #tetris.print_grid()
-    print(tetris.height)
+    print(f'\n(17-1) Height of the resultant rock tower: {tetris.height}')
 
 
 class Shape:

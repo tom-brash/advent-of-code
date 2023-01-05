@@ -3,6 +3,8 @@ import heapq
 from collections import deque, defaultdict
 
 def main():
+    print('\nElephant has agreed to help! Training elephant...')
+    print('Elephant trained. Looking for optimal 26 minute route...')
     with open('input', 'r') as open_file:
         input = open_file.read().strip().split('\n')
 
@@ -42,16 +44,14 @@ def main():
     best_found = 0
     best_time_state = defaultdict(int)  # to allow for heuristic search
 
-    print('Starting search for optimal routes...')
     if heuristic_boundary > 0:
-        print('WARNING: Using heuristic search: not guaranteed to find true optimal value')
-        print()
+        print('\nWARNING: Using heuristic search: not guaranteed to find true optimal value')
 
     iter = 0 
     while sq:
         iter += 1
         if iter % 1000000 == 0:
-            print(f'Tested {iter} different routes! Length of queue is {len(sq)}...')
+            print(f'Tested {iter} different routes! Best found so far: {best_found}. Length of queue is {len(sq)}...')
 
         # get current state; best_possible is at the start of tuple to allow heapq priority sorting
         _, loc, travel_d, e_loc, e_travel_d, drained, flowing, t, opened = heapq.heappop(sq)
@@ -71,7 +71,7 @@ def main():
         if t == max_time:
             if drained > best_found:
                 best_found = drained
-                print(f'Best option found so far: {drained}')
+                # print(f'Best option found so far: {drained}')
 
         # check if current state has been reached faster
         current_state = (loc, travel_d, e_loc, e_travel_d, drained, flowing, opened)
@@ -92,7 +92,7 @@ def main():
                 for move in new_moves:
                     heapq.heappush(sq, move)
 
-    print(f"Final answer: {best_found}")
+    print(f"\n(16-2) Best possible route can release pressure of: {best_found}")
 
 def bfs(start, target, v_exits):
     sq = deque([(start, 0)])
