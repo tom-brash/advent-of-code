@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4261351d-4680-404b-9695-35d80c217f30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2017/day10/10-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day10/10-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day10/10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day11/11-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day11/11-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day11/11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day12/12-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day12/12-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day12/12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day13/13-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day13/13-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day13/13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day13/13t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day14/14-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day14/14-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day15/15-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day15/15-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day16/16-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day16/16-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day16/16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day16/16t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day17/17-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day17/17-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day18/18-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day18/18-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day18/18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day19/19-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day19/19-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day19/19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day19/19t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day20/20-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day20/20-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day20/20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day20/20t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day21/21-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day21/21-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day21/21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day21/21t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day22/22-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day22/22-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day22/22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day22/22t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day23/23-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day23/23-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day23/23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day23/23t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day24/24-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day24/24-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day24/24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day24/24t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day25/25-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day25/25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day3/3-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day3/3-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day4/4-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day4/4-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day4/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day5/5-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day5/5-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day5/5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day6/6-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day6/6-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day6/6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day7/7-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day7/7-2 copy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day7/7-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day7/7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day8/8-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day8/8-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day8/8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day9/9-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day9/9-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day9/9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2017/day9/9t.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2017/day2/2-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2017/day2/2-1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gsKgiqzuY6rPVKjueyYBUk30mF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2019/Day 11" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python Projects\advent-of-code\2019\Day 11" />
+      <recent name="D:\Python Projects\advent-of-code\2019\Day 10" />
+      <recent name="D:\Python Projects\advent-of-code\2019\Day 9" />
+      <recent name="D:\Python Projects\advent-of-code\2019\Day 8" />
+      <recent name="D:\Python Projects\advent-of-code\2019\Day 7" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python Projects\advent-of-code\2019\Day 1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.10-1-first-version">
+    <configuration name="10-1-first-version" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/Day 10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Python Projects\advent-of-code\2019\Day 10\10-1-first-version.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/Day 5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/Day 5/5-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/Day 7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/Day 7/7-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/Day 7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Python Projects\advent-of-code\2019\Day 7\7-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/Day 8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/Day 8/8-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/Day 9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/Day 9/9-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.10-1-first-version" />
+        <item itemvalue="Python.9-1" />
+        <item itemvalue="Python.8-1" />
+        <item itemvalue="Python.7-2" />
+        <item itemvalue="Python.5-2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4261351d-4680-404b-9695-35d80c217f30" name="Default Changelist" comment="" />
+      <created>1598897972293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598897972293</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="736" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598897996594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1598897996594" />
+    <state width="1898" height="361" key="GridCell.Tab.0.bottom" timestamp="1599668822203">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1599002451559" />
+    <state width="1898" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599668822203" />
+    <state width="1898" height="361" key="GridCell.Tab.0.center" timestamp="1599668822203">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1599002451559" />
+    <state width="1898" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599668822203" />
+    <state width="1898" height="361" key="GridCell.Tab.0.left" timestamp="1599668822203">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1599002451559" />
+    <state width="1898" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599668822203" />
+    <state width="1898" height="361" key="GridCell.Tab.0.right" timestamp="1599668822203">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1599002451559" />
+    <state width="1898" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599668822203" />
+    <state width="1898" height="361" key="GridCell.Tab.1.bottom" timestamp="1599668822203">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1599002451559" />
+    <state width="1898" height="361" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599668822203" />
+    <state width="1898" height="361" key="GridCell.Tab.1.center" timestamp="1599668822203">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1599002451559" />
+    <state width="1898" height="361" key="GridCell.Tab.1.center/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599668822203" />
+    <state width="1898" height="361" key="GridCell.Tab.1.left" timestamp="1599668822203">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1599002451559" />
+    <state width="1898" height="361" key="GridCell.Tab.1.left/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599668822203" />
+    <state width="1898" height="361" key="GridCell.Tab.1.right" timestamp="1599668822203">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1599002451559" />
+    <state width="1898" height="361" key="GridCell.Tab.1.right/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599668822203" />
+    <state x="2510" y="383" key="SettingsEditor" timestamp="1599670089094">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state x="2510" y="383" key="SettingsEditor/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599670089094" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1599143548246">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599143548246" />
+    <state x="2689" y="562" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599234305084">
+      <screen x="1920" y="129" width="1920" height="1040" />
+    </state>
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1599000824141" />
+    <state x="2689" y="562" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.129.1920.1040@1920.129.1920.1040" timestamp="1599234305084" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598901190993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.129.1920.1040@0.0.1920.1040" timestamp="1598901190993" />
+  </component>
+</project>
